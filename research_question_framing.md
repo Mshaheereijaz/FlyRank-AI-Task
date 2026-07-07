@@ -7,15 +7,8 @@ written for someone learning ML for the first time.
 
 ## 0. The Big Picture
 
-Machine learning isn't just "put in data, get an answer." It's actually a loop:
-
-```
-Real world → Data → Features → Model → Prediction → Decision/Action
-    ↑                                                        ↓
-    └──────────────── New Data ← Changed World ←─────────────┘
-```
-
-In simple words: the real world creates data. You use that data to build a model.
+Machine learning isn't just "put in data, get an answer." It's actually a loop.
+The real world creates data. You use that data to build a model.
 The model makes a prediction. Someone uses that prediction to make a decision.
 That decision changes the real world. And now new data gets created from that
 change — and the cycle starts again.
